@@ -1,4 +1,5 @@
 // implementation of FIFO Page replacement algorithm
+// input : page requests
 // outputs :page requests, non page fault requests 
 
 import java.io.BufferedReader;

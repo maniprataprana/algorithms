@@ -1,4 +1,5 @@
 #count no of inversions in an list. 
+#using the merge sort adaptation
 
 from sys import argv
 
