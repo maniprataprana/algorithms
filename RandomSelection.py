@@ -1,6 +1,6 @@
 #implementataion of linear random selection algorithm
 # returns the i'th smallest element inn O(n) time ie Linear time
-
+#pivot selection : first element of list
 def radnom_selection(A, start, end, order_i_statistic):
 	n = len(A)
 	if n == 1 or start == end:
