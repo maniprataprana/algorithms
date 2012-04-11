@@ -1,3 +1,5 @@
+#count no of inversions in an list. 
+
 from sys import argv
 
 

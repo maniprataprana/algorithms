@@ -1,4 +1,5 @@
-
+// implementation of LRU Page replacement algorithm
+// outputs :page requests, non page fault requests
 
 import java.io.BufferedReader;
 import java.io.IOException;
