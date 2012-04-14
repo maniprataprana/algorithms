@@ -8,6 +8,7 @@ parent = {}
 s_time = {}
 e_time = {}
 
+#dfs algo
 def dfs(G) :
 	for node in G.keys() :
 		color[node] = 0
@@ -17,7 +18,8 @@ def dfs(G) :
 	for node in G.keys() :
 		if color[node] == 0 :
 			dfs_visit(G,node)	
-	
+
+#mark visited nodes	
 def dfs_visit(G,node):
 	global time_value
 	time_value = time_value + 1
@@ -46,5 +48,6 @@ G = { 'u' : ['v', 'x'],
 	  'y' : ['x'],	  
 }
 
+#call to dfs
 dfs(G)
 print e_time,s_time
