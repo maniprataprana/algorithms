@@ -1,6 +1,6 @@
 //easy implementation of Quick find union operation
 //while doing algo course on coursera
-//o(n^2)
+//o(n)
 
 public class QuickFindUF2 {
 	
