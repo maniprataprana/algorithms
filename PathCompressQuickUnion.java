@@ -1,5 +1,5 @@
-// order ln(n) implementation of qucik find using weights of trees
-// impovement upon QuickFind2
+// order n + mln*(n) implementation of qucik find using weights of trees
+// impovement upon QuickFindWeight
 
 public class PathCompressQuickUnion {
 	private int[] id;
