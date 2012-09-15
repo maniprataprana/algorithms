@@ -11,7 +11,7 @@ public class SumThree {
 				for (int k = j+1; k < n ; k++ ) {
 					if ((a[i] + a[j] + a[k]) == 0) {
 						c++;
-						System.out.print(a[i]+"	"+a[j]+"	"+a[k] +"\n");
+						System.out.print("Set : "+ a[i]+" "+a[j]+" "+a[k] +"\n");
 
 					}
 				}
@@ -23,6 +23,6 @@ public class SumThree {
 
 	public static void main(String [] args) {
 		int [] num = {1,23,4,-2,3,42,-1,-2};
-		System.out.println(count(num));
+		System.out.println("\ncount = "+ count(num));
 	}
 }
