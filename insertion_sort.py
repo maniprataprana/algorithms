@@ -9,3 +9,10 @@ def insertion_sort(A):
 	return A
 
 print insertion_sort([22,1,5,9,22,7,10,44,1])
+
+T = raw_input()
+
+	tokens = list(S)
+	tokens = tokens[::-1]
+	S = ''.join(str(alphabet) for alphabet in tokens)
+	print S
